@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Portofolio || Syahrul Wardi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-container">
+    <main>
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#" class="active">HOME</a></li>
+          <li><a href="#portofolio">PORTOFOLIO</a></li>
+          <li><a href="https://syahrulwardi.blogspot.com/">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-text">
+          <h2>Hallo</h2>
+          <h1 class="fw-bold">I Am Syahrul Wardi</h1>
+          <p>Photographer || Video Editor || Copy Writer<br>
+            2 Years Experienced <span class="highlight">Visual Officer in Nord and Smith</span></p>
+          <a href="#about" class="cta-button">Let's Talk →</a>
+          <div class="Social-icon desktop-only">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/syahrul-wardi-9a3625200" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+          <image id="icons8-linkedin-50" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZElEQVR4nO2ZvUoDQRSFP1Hs/AFtBQt9A99BwV20FIV0lr6CjQTyID6DnSbqg9gp/iDopkpzZWEaw+zOzFrsHbkHThNuZs+Xu3dmk4DJZOqqI2ACTAHp2VNgDJSpECMF4aXBw5ROiHIXMSATBUEl4LsYkEpBUAn4OwZEMnFQfQcUA5lT2yfyApwAG85nwFuOHdlXtF0H1fbmVU/9Wo4gpae+yBHkHRgAm871jLzmCCKKHFTfAcVA5tSlnSk1j+4s2gKWgRVgD7gEPnIAqQ/Og8C114Eb7SA7MRcHloAHzSAp2gZmOYAsRtRcawa5AJ5d3RNw3lJ7qhXkOPH7965WkPuGNevfCOjwMNobyGfDmvXrPi1oBfnrumIgWEe8slsLmxFs1xL/eNiMiJ0jtG+TmhzUvwGpFISUgL9iQMYKgkrAtzEgpYKgEvAhkRoqCCsNviJRhfv3VMPMVO52iu6EyWTil34AFdRDhxtrT8cAAAAASUVORK5CYII="/>
+          </svg> </a>
+
+            <!-- Instagram -->
+            <a href="http://bit.ly/4k60gtj" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+           <image id="icons8-instagram-50" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADK0lEQVR4nO2ZO09UQRTHfwUqRB67lksrgrEQBTsfsZOYqHwCQlS+gApS+2iNhFKDX0AxsZLFZ6f2Itio2AoKCBWuOcn/JhMDu3Mfu3NN9p9McrP3nHPn7Jz3QBNN5AK9wAQwDywAG0Alo2WyTGYZGAcO1UOBQeBFhpv2XfPAQBYK7AGmgT8S/AN4AFzQ6ewnO5gsk3kReKhvVfTtKaAlqeAi8FLCfgO3gE4ah07gNrDpnE4hyUlEpvRdphUKR4Ev2ssbYG8c5mkxfgNKhEcJWNae7vsyDcouzZyOkR8cl5lt67kmIpMyn8gb7mhvFqKroteJTo107Ajn5ZNmRkM7vO8CVrTHnmqCJkRk4S8Elp0cYv65E2b0/kY1QWURWSzPqyLDej9XTdCiiNKUB5Z/RoGnwCeVHht6ntU7o9kJQ1LGlDhXw/xN3q5YE1FHAgXagEngp0fpsQrcBFoTfKdDMmyvuyL6UJI4/8Hhfw5cccoYW336bc6he58wT1Vq7TOJIiWZQnTcJz14TjlmnCTpVrJWpM05iVcxayHzk9fifRfTzCpZKzIp+oUkBZ2UiU7GQn8QRYqOY/uY02444wSAYghFRh3HTosof42EUGRWtJdJj6uS9TiEIpFtW4hNiz6fJFcvRdZF2056tEvW+v+uSKdk/fKkb5pWNWe3siMtxkI6+6hPOe2J+ZDht6gkZvSnSY6zTkIshC5RFmNkZRfGs+TT8dVbkVaV4hUVgHGUOQC8zUvR+G8Zv6TaycecPuepjI9Q0r8a8ZcViQ4rz7Trecxx7Ogk6tJYraVodVtViq96trp2dbCvXq3uYgbDh4LC6BP1KetaC/ptJGHvEmv4EHoc5INhn/ZhPPCAzgePtMdreR6Z1oL3yBQnqtglS95wN05XOqBrhU3f8X2DMAhs6Vqh35dpSprb+LKb8Oh25sL34jC2OCZmY/4ThEM/8NVJtLEvRQuOMpu6ZDFnaxS65BNbTruQOP+06M5uW8JWdD9xSQODLNrcCCarT3lixolO2zKnxNfTLo4AzzxKj6xXuV4Bp0d9w5xTfmS1aZP1UaH1OnCwHgo00QTx8Bf0wax6bwlEYQAAAABJRU5ErkJggg=="/>
+           </svg></a>
+
+            <a href="https://drive.google.com/file/d/1RDKzjUjvpawAWVJoKYOvuQT1pPbhBewe/view?usp=drivesdk" class="cv">Download <span class="highlight">Curriculum Vitae</span></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="image/Image 1.png" alt="Syahrul Wardi" />
+          <div class="Social-icon mobile-only">
+            <!-- Repeated social icons for mobile -->
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about">
+        <div class="container">
+          <h1>About</h1>
+          <hr>
+          <p class="quote">"Teknologi hanyalah alat, hasilnya tergantung siapa yang menggunakan."</p>
+          <br>
+          <p>Saya adalah mahasiswa di Universitas Pamulang jurusan Teknik Informatika kelas karyawan. 
+            Dengan pengalaman dan kemampuan yang saya miliki serta dapat bekerjasama dalam tim, cepat 
+            mempelajari hal baru, dapat melakukan multitasking, dan terorganisir.
+          </p>
+        </div>
+      </section>
+
+      <!-- Skill -->
+      <section id="skill">
+        <div class="container">
+          <h1>Skill</h1>
+          <hr>
+          <div class="image-container">
+            <img class="icon-skill" src="image/icons8-adobe-lightroom-48.png" alt="" />
+            <img class="icon-skill" src="image/icons8-adobe-premiere-pro-48.png" alt="" />
+            <img class="icon-skill" src="image/icons8-figma-48.png" alt="" />
+            <img class="icon-skill" src="image/icons8-microsoft-office-48.png" alt="" />
+          </div>
+          <div class="card-skill">
+            <div class="card">
+              <img class="icon" src="image/web-design-svgrepo-com.png" alt="Design" />
+              <h3>Design</h3>
+              <p>1 tahun bekerja sebagai graphic designer...</p>
+            </div>
+            <div class="card">
+              <img class="icon" src="image/video editing.png" alt="Video" />
+              <h3>Video Editing</h3>
+              <p>2 tahun pengalaman video editing dengan Adobe Premiere Pro dan Capcut.</p>
+            </div>
+            <div class="card">
+              <img class="icon" src="image/photograph.png" alt="Photography" />
+              <h3>Photography</h3>
+              <p>Mengambil dan mengedit foto berkualitas tinggi...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portofolio">
+        <div class="container">
+          <h1>Galeri Portofolio</h1>
+          <hr>
+          <div class="image-container">
+            <!-- Gambar Portofolio -->
+            <img class="icon-portofolio" src="image/_1090987.jpg" />
+            <img class="icon-portofolio" src="image/DSC01539.JPG" />
+            <img class="icon-portofolio" src="image/_1080233.jpg" />
+            <img class="icon-portofolio" src="image/_1090004-2.jpg" />
+            <br>
+            <img class="icon-portofolio" src="image/Logo Design.jpg" />
+            <img class="icon-portofolio" src="image/_1110007.JPG" />
+            <img class="icon-portofolio" src="image/_1110010.JPG" />
+            <img class="icon-portofolio" src="image/_1090995.jpg" />
+          </div>
+          <h3>Galeri Video on</h3>
+          <a href="http://bit.ly/4k60gtj" class="cta-button">Instagram</a>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <a href="https://wa.me/6281212402633"><img class="icon-contact" src="image/whatsapp-16.png" alt="WhatsApp" 
+            style="width: 20px; height: auto; vertical-align: middle;" /></a>
+          <a href="https://wa.me/6281212402633"><img class="icon-contact" src="image/email-12-16.png" alt="Email" 
+            style="width: 20px; height: auto; vertical-align: middle;" /></a>
+          <a href="https://wa.me/6281212402633"><img class="icon-contact" src="image/twitter-x-16.png" alt="Twitter" 
+            style="width: 20px; height: auto; vertical-align: middle;" /></a>
+          <a href="https://wa.me/6281212402633"><img class="icon-contact" src="image/instagram-4-16.png" alt="Instagram" 
+            style="width: 20px; height: auto; vertical-align: middle;" /></a>
+          <a href="https://wa.me/6281212402633"><img class="icon-contact" src="image/tiktok-16.png" alt="Tiktok" 
+            style="width: 20px; height: auto; vertical-align: middle;" /></a>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>Created By <a href="http://bit.ly/4k60gtj" target="_blank">Syahrul Wardi</a> | My <a href="#">Portofolio</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Loader -->
+  <div id="loader" class="loader-overlay">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Script -->
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    const links = document.querySelectorAll('.nav-links a');
+    const loader = document.getElementById('loader');
+
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    links.forEach(link => {
+      link.addEventListener('click', function (e) {
+        const targetHref = this.getAttribute('href');
+
+        if (targetHref.startsWith("#")) {
+          e.preventDefault();
+          const targetElement = document.querySelector(targetHref);
+          if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+          }
+          links.forEach(l => l.classList.remove('active'));
+          this.classList.add('active');
+          navLinks.classList.remove('active');
+        } else {
+          e.preventDefault();
+          links.forEach(l => l.classList.remove('active'));
+          this.classList.add('active');
+          loader.classList.add('show');
+          document.body.classList.add('fade-out');
+          setTimeout(() => {
+            window.location.href = targetHref;
+          }, 700);
+        }
+      });
+    });
+
+    window.addEventListener('load', () => {
+      loader.classList.remove('show');
+    });
+  </script>
+</body>
+</html>
