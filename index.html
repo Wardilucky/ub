@@ -119,11 +119,6 @@
           <a href="http://bit.ly/4k60gtj" class="cta-button">Instagram</a>
         </div>
       </section>
-      <audio id="bg-music" autoplay muted loop="display: none;">
-     <source src="image/Inspiring & Uplifting Background Music For Videos & Presentations.mp3" type="audio/mpeg">
-      </audio>
-      <button onclick="toggleMusic()" class="cta-button">🎵 Musik</button>
-
 
       <!-- Contact -->
       <section id="contact">
@@ -163,20 +158,11 @@
     const navLinks = document.getElementById('nav-links');
     const links = document.querySelectorAll('.nav-links a');
     const loader = document.getElementById('loader');
-    const music = document.getElementById('bg-music');
-  let isPlaying = false;
-
+    
     toggle.addEventListener('click', () => {
       navLinks.classList.toggle('active');
     });
-   function toggleMusic() {
-    if (isPlaying) {
-      music.pause();
-    } else {
-      music.play();
-    }
-    isPlaying = !isPlaying;
-  }
+   
     links.forEach(link => {
       link.addEventListener('click', function (e) {
         const targetHref = this.getAttribute('href');
